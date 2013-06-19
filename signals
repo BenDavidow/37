@@ -1,0 +1,157 @@
+/* base */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: medium;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end reset */
+
+body {
+	font-family: "Lucida Grande", sans-serif;
+	text-align: center;
+	width: 100%;
+}
+
+h1, h2 {
+	font-family: "CrimsonSemibold", sans-serif;
+}
+
+h1 {
+	font-size: 160%;
+}
+
+h3 {
+
+}
+
+h5 {
+
+}
+
+ul, nav {
+    display: inline;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	color: #336699;
+	text-decoration: none;
+}
+
+/* layout */
+
+#badges {
+	margin: 0 auto 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding: 28px 0 0 0;
+}
+
+nav {
+    float: right;
+    margin: 0 40px 0 0;
+}
+
+/* modules */
+
+.badge {
+	display: inline;
+	float: left;
+	height:248px;
+	width: 180px;
+	margin: 0 20px 0 0;
+	border: 1px solid #efefef;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,239,1) 43%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(43%,rgba(239,239,239,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 43%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 43%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 43%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 43%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+}
+
+.product-header {
+    font-size: 130%;
+	font-weight: bold;
+	text-decoration: underline;
+	padding: 5px 0 15px 0;
+}
+
+.product-tagline {
+	color: #cc5463;
+}
+
+.product-description {
+	color: #222222;
+}
+
+.date {
+    float: left;
+    margin: 0 0 0 60px;
+    color: #999;
+    font-size: 80%;
+}
+
+.main-li {
+    padding: 0 14px 0 0;
+    font-size: 80%;
+}
+
+.logo {
+    clear:both;
+    display: block;
+    margin: 0 auto 0 auto;
+}
