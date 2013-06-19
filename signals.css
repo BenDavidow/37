@@ -1,0 +1,246 @@
+/* base */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: medium;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+h5 { 
+    font-family: CrimsonSemibold, 'Times New Roman', Georgia, serif;    
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'crimsonsemibold';
+    src: url('crimson-semibold-webfont.eot');
+    src: url('crimson-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('crimson-semibold-webfont.woff') format('woff'),
+         url('crimson-semibold-webfont.ttf') format('truetype'),
+         url('crimson-semibold-webfont.svg#crimsonsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* end reset */
+
+body {
+	font-family: "Lucida Grande", sans-serif;
+	text-align: center;
+	width: 100%;
+}
+
+sup {
+    vertical-align: super;
+    font-size: 80%;
+}
+
+h1 {
+	font-size: 383%;
+}
+
+h1, h5 {
+    font-family: CrimsonSemibold, 'Times New Roman', Georgia, serif;
+}
+
+h5 {
+    font-size: 140%;    
+}
+
+ul, nav {
+    display: inline;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	color: #336699;
+	text-decoration: none;
+}
+
+/* layout */
+
+#badges {
+	margin: 30px auto 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding: 28px 0 0 0;
+}
+
+nav {
+    float: right;
+    margin: 0 40px 0 0;
+}
+
+/* modules */
+
+.badge {
+	position: relative;
+	display: inline-block;
+	width: 180px;
+	margin: 0 20px 0 0;
+	padding: 20px 10px 10px 10px;
+	border: 1px solid #efefef;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,239,1) 43%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(43%,rgba(239,239,239,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 43%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 43%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 43%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 43%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+}
+
+
+.main {
+	margin: 20px auto 20px auto;
+	width: 950px;
+}
+
+.main-header {
+	margin: 0 0 20px 0;
+}
+
+.product-header {
+	padding: 10px 0 15px 0;
+}
+
+.product-name {
+    font-size: 145%;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.product-tagline {
+    margin: 0 0 15px 0;
+	color: #cc0000;
+	font-weight:bold;
+	font-size: 95%;
+}
+
+.product-description {
+	color: #222222;
+	font-size: 90%;
+	line-height:1.4;
+}
+
+.date {
+    float: left;
+    margin: 0 0 0 60px;
+    color: #999;
+    font-size: 78%;
+}
+
+.main-li {
+    padding: 0 14px 0 0;
+    font-size: 80%;
+}
+
+.main-li a:hover {
+    color: #18AFE0
+}
+
+.logo {
+    clear:both;
+    display: block;
+    margin: 15px auto 0 auto;
+    width: 150px;
+}
+
+.rights {
+    vertical-align: super;
+    font-size: 50%;
+}
+
+.sign-in {
+    color: #18AFE0;;
+}
+
+.sign-in:hover {
+    color: #69C;
+}
+
+.badge-header h1 {
+	font-size:290%;
+}
+
+.badge-about h5 {
+	font-size:100%;
+	font-family: "Lucida Grande", sans-serif;
+	text-align: center;
+	line-height:1.3;
+}
+
+.product {
+	text-decoration: underline;
+	color: #336699;
+}
+
+.arrow-left {
+	position: absolute;
+	top: -40px;
+	right: -28px;
+}
+
+.arrow-right {
+	position: absolute;
+	left: -28px;
+	top: -40px;
+}
+
+.js-main {
+	margin-bottom:50px;
+}
